@@ -1,0 +1,36 @@
+{
+  "name": "playground-music",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@heroui/react": "^2.8.4",
+    "@prisma/client": "^6.16.3",
+    "@react-spring/three": "^10.0.3",
+    "@react-three/drei": "^10.7.6",
+    "framer-motion": "^12.23.22",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-spinners": "^0.17.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "prisma": "^6.16.3",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5"
+  }
+}
